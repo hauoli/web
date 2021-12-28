@@ -1,0 +1,69 @@
+.section-type-1, .section-type-img {padding: 120px 0 120px;}
+.section-type-1 h2 {
+	font-size: 44px;
+	line-height: 1.3;
+	font-weight: 400;
+	color: #282828;
+	word-break: keep-all;
+}
+.section-type-1 p {
+	font-size: 18px;
+	line-height: 1.79;
+	font-weight: 300;
+	margin-top: 55px;
+	color: #282828;
+	word-break: keep-all;
+}
+.section-type-img {text-align: center;}
+.section-type-img img {vertical-align: bottom; max-width: 100%;}
+.section-1 {
+	background: url(/img/assure_banner.png) center no-repeat;
+	color: #fff;
+}
+.sec-type-1-img {font-size: 0;}
+.sec-type-1-img img {width: 49%; margin-left: 2%;}
+.sec-type-1-img img:first-child {margin-left: 0;}
+.sec-type-2-img {font-size: 0;}
+.sec-type-2-img img {width: 24%; margin-left: 1%;}
+.sec-type-2-img img:first-child {margin-left: 0;}
+.section-2 .sec-type-1-img {margin-top: 80px;}
+.section-3 {background-color: #fff0e2;}
+.section-7 {background-color: #dcdcdc;}
+.section-5 {background-color: #f8f8f8;}
+.section-9 {background-color: #444;}
+.section-11 {background-color: #e3d8cc;}
+
+.section-2 h2 {color: #333;}
+.section-9 h2 {color: #f2f2f2;}
+
+.section-2 p {max-width: 500px; color: #666;}
+.section-3 p {max-width: 450px;}
+.section-5 p {max-width: 520px;}
+.section-7 p {max-width: 570px;}
+.section-9 p {max-width: 540px; color: #f2f2f2;}
+.section-11 p {max-width: 520px;}
+
+
+
+@media screen and (max-width: 1023px) {
+	.section-type-1 h2 {
+		font-size: 26px;
+		line-height: 1.75;
+	}
+	.section-type-1 p {
+		font-size: 16px;
+		line-height: 2;
+		margin-top: 50px;
+		width: auto;
+	}
+	.sec-type-1-img {margin-top: 0;}
+	.sec-type-1-img img {
+		width: 100%;
+		margin-left: 0;
+		margin-top: 30px;
+	}
+	.sec-type-1-img img:first-child {margin-top: 0;}
+	.section-2 .sec-type-1-img {margin-top: 30px;}
+	.sec-type-1-slide {padding-bottom: 30px !important;}
+	.sec-type-1-slide .swiper-slide {max-width: 197px;}
+}

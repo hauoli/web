@@ -1,0 +1,86 @@
+.section-type-4 {padding-top: 120px;}
+.section-type-4 h2 {
+	line-height: 1.85;
+	font-size: 19px;
+	font-weight: 400;
+	color: #282828;
+}
+.section-type-4 p {
+	font-size: 18px;
+	line-height: 1.8;
+	font-weight: 300;
+    margin-top: 65px;
+    max-width: 570px;
+    word-break: keep-all;
+}
+.sec-type-4-title {display: flex; align-items: start;}
+.sec-type-4-title img {width: 160px;}
+.sec-type-4-title h2 {
+	flex: auto;
+	border-top: 1px solid #000;
+	padding-top: 13px;
+	margin-top: 15px;
+}
+.sec-type-4-img {
+	margin-top: 60px;
+	text-align: center;
+	font-size: 0;
+}
+.sec-type-4-img img {max-width: 100%;}
+.sec-type-4-link {
+	margin-top: 45px;
+	text-align: right;
+}
+.sec-type-4-link a {
+	color: #999;
+	border-bottom: 1px solid #999;
+	font-size: 16px;
+}
+.section-1 {
+	background: url('/img/business_banner.png') center no-repeat;
+	color: #fff;
+}
+.section-2 .sec-type-4-img img, .section-4 .sec-type-4-img img {
+	max-width: 32.66%;
+	margin-left: 1%;
+}
+.section-2 .sec-type-4-img img:first-child, .section-4 .sec-type-4-img img:first-child {
+	margin-left: 0;
+}
+.section-5 {padding-bottom: 120px;}
+.section-5 p {max-width: none;}
+
+.sec-type-4-logo {
+	width: 170px;
+	height: 64px;
+	display: inline-block;
+	background-image: url('/img/business_logo.png');
+	background-repeat: no-repeat;
+	background-size: 85%;
+}
+.section-2 .sec-type-4-logo {background-position: 0 0;}
+.section-3 .sec-type-4-logo {background-position: 0 -65px;}
+.section-4 .sec-type-4-logo {background-position: 0 -130px;}
+.section-5 .sec-type-4-logo {background-position: 0 -195px;}
+
+@media screen and (max-width: 1023px) {
+	.section-type-4 {
+		font-size: 16px;
+		padding-top: 80px;
+	}
+	.section-type-4 p {
+		font-size: 16px;
+		word-break: normal;
+	}
+	.sec-type-4-title img {width: 130px;}
+	.sec-type-4-title h2 {color: transparent; height: 40px;}
+	.sec-type-4-link a {font-size: 14px;}
+	.sec-type-4-slide {
+		margin-top: 60px;
+		padding-bottom: 30px !important;
+	}
+	.sec-type-4-slide img {max-width: 100%;}
+	.sec-type-4-slide .swiper-slide {width: 70%; max-width: 195px;}
+	.sec-type-4-slide .swiper-scrollbar {margin-top: 30px;}
+	.section-5 {padding-bottom: 80px;}
+}

@@ -1,0 +1,96 @@
+@font-face {
+	font-family: 'NotoSansKR';
+	src: url('/fonts/NotoSansKR-Light.otf') format('opentype');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'NotoSansKR';
+	src: url('/fonts/NotoSansKR-Regular.otf') format('opentype');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'NotoSansKR';
+	src: url('/fonts/NotoSansKR-Medium.otf') format('opentype');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'NotoSansKR';
+	src: url('/fonts/NotoSansKR-Bold.otf') format('opentype');
+	font-weight: 700;
+	font-style: normal;
+}
+html, body {margin: 0; height: 100%;}
+body {
+	font-family: 'NotoSansKR','Helvetica Neue',Helvetica,Arial,sans-serif;
+	background-color: #fff;
+}
+button {
+	cursor: pointer;
+}
+a {
+	color: inherit; /* blue colors for links too */
+	text-decoration: inherit; /* no underline */
+}
+ul, ul li, ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+input:focus {outline: none;}
+input[type="text"], input[type="password"], input[type="email"], input[type="search"], input[type="image"],input[type="tel"], textarea {
+	-webkit-appearance:none;
+	-webkit-border-radius:0;
+}
+#main {position: relative;}
+.wrap {
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.wrap-narrow {
+	max-width: 840px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.font-light {font-weight: 300;}
+.font-bold {font-weight: 500;}
+.dc {margin-left: auto; margin-right: auto;}
+.ib-wrap {font-size: 0;}
+.underline {position: relative;}
+.underline:after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    border-width: 0 0 1px;
+    border-style: solid;
+}
+.clear {clear: both;}
+h2, p {
+	margin: 0;
+}
+
+@media screen and (max-width: 1023px) {
+	.desktop {display: none !important;}
+	.wrap-narrow.mobile-wide {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.mobile {display: none !important;}
+}
+@media screen and (min-width: 600px) {
+	.mobile-600 {display: none !important;}
+}
+@media screen and (max-width: 599px) {
+	.mobile-600r {display: none !important;}
+}

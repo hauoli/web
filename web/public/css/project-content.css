@@ -1,0 +1,113 @@
+.section-1 {color: #fff;}
+.section-1 h2 > .tit-small {
+	font-size: 17px;
+	line-height: 80px;
+}
+.section-1 h2 > b {font-weight: 500;}
+.prj-cont {padding-bottom: 100px;}
+.prj-cont img {max-width: 100%;}
+.prj-cont section {margin-top: 150px;}
+.prj-cont .sec-type-1 h4 {
+	font-size: 22px;
+	color: #333;
+	line-height: 1.5;
+	font-weight: 500;
+}
+.prj-cont .sec-type-1 p {
+	font-size: 18px;
+	color: #666;
+	line-height: 2;
+	font-weight: 300;
+}
+section.sec-7-img {margin-top: 70px;}
+section.other-prj {
+	margin-top: 75px;
+	padding-top: 75px;
+	border-top: 1px solid #dcdcdc;
+}
+.other-prj h1 {font-size: 22px; margin-bottom: 50px;}
+.other-prj h2 {font-size: 20px; font-weight: normal;}
+.prj-list {overflow: hidden;}
+.prj-list .prj-item {
+	margin-right: 13px;
+	float: left;
+	margin-top: 40px;
+	max-width: 323.3px;
+	width: 32.3%;
+}
+.prj-item img {
+	vertical-align: bottom;
+	width: 100%;
+}
+.prj-item h2 {
+	margin-top: 30px;
+	font-size: 20px;
+	font-weight: 500;
+}
+.prj-item p {
+	margin-top: 4px;
+	font-size: 18px;
+	padding-bottom: 15px;
+	font-weight: 300;
+}
+.prj-list .prj-item:nth-child(3n) {margin-right: 0;}
+.prj-thumb {position: relative;}
+.prj-thumb .prj-thumb-ready {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: 0.5;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+}
+.blog-more {
+	float: right;
+	margin-top: 60px;
+	font-size: 15px;
+	color: #666;
+}
+.prj-with .prj-item {position: relative;}
+.prj-with h4 {
+	position: absolute;
+	top: -40px;
+	left: 0;
+	margin: 0;
+	font-weight: 500;
+}
+
+@media screen and (max-width: 1023px) {
+	.section-1 h2 {font-size: 30px;}
+	.prj-cont .sec-type-1 h4 {font-size: 18px;}
+	.prj-cont .sec-type-1 p {font-size: 14px;}
+	.prj-list .prj-item {
+		float: none;
+		margin-top: 50px;
+		max-width: 390px;
+		width: auto;
+	}
+	.prj-list .prj-item:nth-child(3n) {margin-right: auto;}
+	.list-type2 .prj-item:nth-child(3n) {margin-right: 2%;}
+	.prj-item h2 {
+		margin-top: 20px;
+		font-size: 18px;
+	}
+	.prj-item p {
+		padding-bottom: 15px;
+		font-size: 17px;
+	}
+	.list-type2 .prj-item {
+		width: 49%;
+		margin-right: 2%;
+		max-width: 250px;
+		float: left;
+	}
+	.prj-with .prj-item {margin-top: 75px;}
+	.list-type2 .prj-item:nth-child(2n) {margin-right: 0;}
+	.sec-7-img .mobile img {max-width: 104%; margin-left: -4%;}
+}

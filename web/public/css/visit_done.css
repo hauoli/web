@@ -1,0 +1,39 @@
+.section-1 {
+	padding: 160px 0 140px;
+	text-align: center;
+	background-color: #f6f6f6;
+}
+.section-1 h2 {
+	font-size: 32px;
+	color: #f5865f;
+	font-weight: 500;
+}
+.section-1 p {
+	padding: 50px 0;
+	font-size: 18px;
+}
+.flow {
+	margin: 40px auto 0;
+	max-width: 700px;
+}
+.flow img {max-width: 100%;}
+.section-1 a {
+	display: inline-block;
+	padding: 20px 70px;
+	margin-top: 60px;
+	background-color: #f5865f;
+	color: #fff;
+	font-size: 19px;
+}
+.section-1 h4 {
+	margin-top: 50px;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+@media screen and (max-width: 1023px) {
+	.section-1 a {
+		padding: 20px 20px;
+		font-size: 16px;
+	}
+}
